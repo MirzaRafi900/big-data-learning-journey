@@ -8,3 +8,12 @@
 - date_added: 13
 - rating: 6
 __________________________________________________________________________________________________________________________________________________________________
+
+# Data CLeaning
+
+## Filled Missing Values
+- director - Unknown
+- cast - Unknown
+- country - unknown
+
+Reason: These columns had large number of missing values and dropping rows would result in significant data loss
